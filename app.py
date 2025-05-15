@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st # type: ignore
 import google.generativeai as genai
 
 genai.configure(api_key=st.secrets["api_keys"]["gemini"])
